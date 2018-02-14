@@ -1,7 +1,7 @@
 // Your code goes here:
 
  let replaceImage = function(event) {
-    $('#main-image').attr('src', $(this).attr('src'));
+    jQuery('#main-image').attr('src', jQuery(this).attr('src'));
   }
 
-$('#thumbnails img').on('click', replaceImage)
+jQuery('#thumbnails img').on('click', replaceImage)
